@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My First Application</string>
+    <string name="enter_a_massege_then_tap_ok">Enter a massege then tap OK</string>
+    <string name="mobile_tech">Mobile Tech</string>
+    <string name="ok">OK</string>
+    <string name="enter_a_messege_then_tap_ok">enter_a_messege_then_tap_ok</string>
+    <string name="enter_a_messenge_then_tap_ok">enter_a_messenge_then_tap_ok</string>
+    <string name="enter_a_message_then_tap_ok">enter_a_message_then_tap_ok</string>
+</resources>

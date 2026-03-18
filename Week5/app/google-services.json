@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "436122108494",
+    "project_id": "mobile-tech-8250b",
+    "storage_bucket": "mobile-tech-8250b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436122108494:android:f2cca2663fb2a80dd0391f",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwthN-JTyIudg6VkJM6kAwGJvkDLlYdI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

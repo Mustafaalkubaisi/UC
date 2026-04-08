@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="openListView"
+    tools:context=".MLKitActivity">
+
+    <TextView
+        android:id="@+id/textViewMLKit"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="41dp"
+        android:text="Tap Open Camera or Load Image to have an image for ML Kit"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewMLKit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewMLKit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/openCamera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMLKit"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/openCamera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="141dp"
+        android:onClick="openCamera"
+        android:text="Open Camera"
+        app:layout_constraintBottom_toTopOf="@+id/loadImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMLKit" />
+
+    <Button
+        android:id="@+id/loadImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="275dp"
+        android:onClick="loadImage"
+        android:text="Load Image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/openCamera"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonOpenListView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="197dp"
+        android:onClick="openListView"
+        android:text="Open List View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loadImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
